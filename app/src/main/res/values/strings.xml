@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kotlin-Firebase-SampleSolutions</string>
+
+    <string name="msg_subscribe_failed">Subscribe failed</string>
+    <string name="msg_subscribed">Subscribed Successfully</string>
+    <string-array name="titles">
+        <item>Send Multiple Device</item>
+        <item>Get Server Time</item>
+    </string-array>
+</resources>
