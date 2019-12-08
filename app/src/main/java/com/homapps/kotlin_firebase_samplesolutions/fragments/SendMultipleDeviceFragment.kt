@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import com.homapps.kotlin_firebase_samplesolutions.R
 import com.homapps.kotlin_firebase_samplesolutions.utils.FirestoreUtil
 import com.homapps.kotlin_firebase_samplesolutions.utils.onChange
-import kotlinx.android.synthetic.main.fragment_send_multiple_device.*
 import kotlinx.android.synthetic.main.fragment_send_multiple_device.view.*
 
 

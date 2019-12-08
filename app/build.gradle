@@ -60,6 +60,8 @@ dependencies {
     //recyclerview
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.github.ssseasonnn:Yasha:1.0.7'
-    //
+    //rxjava2
+    implementation "io.reactivex.rxjava2:rxjava:2.2.9"
+
 
 }

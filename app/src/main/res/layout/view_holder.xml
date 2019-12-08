@@ -15,7 +15,7 @@
         android:fontFamily="@font/open_sans_semibold"
         android:gravity="center|start"
         android:padding="10dp"
-        android:text="TextView"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

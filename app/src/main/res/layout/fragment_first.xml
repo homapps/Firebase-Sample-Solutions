@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/open_sans_bold"
-        android:text="Kotlin Firebase Samples"
+        android:text="@string/title"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -11,7 +11,6 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.homapps.kotlin_firebase_samplesolutions.R
-import kotlinx.android.synthetic.main.fragment_server_time.*
 import kotlinx.android.synthetic.main.fragment_server_time.view.*
 import java.text.SimpleDateFormat
 import java.util.*

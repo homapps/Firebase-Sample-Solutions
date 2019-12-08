@@ -1,6 +1,7 @@
 package com.homapps.kotlin_firebase_samplesolutions.utils
 
 import android.content.Context
+import android.os.Build
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
@@ -25,4 +26,12 @@ fun String.logd(): Int {
 fun getHomTag():String
 {
     return "HOMAPPS"
+}
+
+inline fun androidQAndAbove(block : () -> Unit,block2 : () -> Unit) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+        block()
+    }
+    else block2()
+
 }

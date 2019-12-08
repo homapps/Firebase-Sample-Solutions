@@ -7,9 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.homapps.kotlin_firebase_samplesolutions.R
 import com.homapps.kotlin_firebase_samplesolutions.model.TitleItem
-import com.homapps.kotlin_firebase_samplesolutions.utils.toast
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_first.*
 import kotlinx.android.synthetic.main.fragment_first.view.*
 import kotlinx.android.synthetic.main.view_holder.*
 import zlc.season.yasha.YashaDataSource
@@ -57,6 +54,7 @@ lateinit var viewFirst:View
         {
             resources.getStringArray(R.array.titles)[0]-> SendMultipleDeviceFragment.newInstance()
             resources.getStringArray(R.array.titles)[1]-> ServerTimeFragment.newInstance()
+            resources.getStringArray(R.array.titles)[2]-> UserConnectionStatusFragment.newInstance()
             else-> SendMultipleDeviceFragment.newInstance()
         }
 

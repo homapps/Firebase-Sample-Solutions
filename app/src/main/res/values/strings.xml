@@ -3,8 +3,15 @@
 
     <string name="msg_subscribe_failed">Subscribe failed</string>
     <string name="msg_subscribed">Subscribed Successfully</string>
+    <string name="user_online">User is Online</string>
+    <string name="user_offline">User is Offline</string>
+    <string name="title">Kotlin Firebase Samples</string>
+    <string name="add_user">Add User</string>
+    <string name="enter_user_name">Kullanıcı Adını giriniz</string>
+    <string name="show_server_time">Show Server Time</string>
     <string-array name="titles">
         <item>Send Multiple Device</item>
         <item>Get Server Time</item>
+        <item>User Connection(Online/Offline) Status</item>
     </string-array>
 </resources>

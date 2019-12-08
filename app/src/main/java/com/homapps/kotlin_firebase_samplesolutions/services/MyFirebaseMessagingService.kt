@@ -6,7 +6,6 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
@@ -18,7 +17,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
 
-      setNotification(applicationContext,remoteMessage.data?: mutableMapOf())
+      setNotification(applicationContext,remoteMessage.data)
 
     }
 
@@ -52,8 +51,8 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         //  builder.priority= NotificationCompat.PRIORITY_MAX
         // yukardakini iptal ederek sadece barda gözükmesini sağladık.
 
-        val notification_intent =  Intent(context, MainActivity::class.java);
-        val pendingIntent = PendingIntent.getActivity(context,0,notification_intent,0);
+        val notification_intent =  Intent(context, MainActivity::class.java)
+        val pendingIntent = PendingIntent.getActivity(context,0,notification_intent,0)
         builder.setSmallIcon(R.drawable.ic_launcher_background)
             .setContentTitle("New User Added "+data["title"])
              .setOngoing(true) // setCancelable
